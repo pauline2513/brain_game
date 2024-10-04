@@ -1,7 +1,9 @@
+MAX_ROUNDS = 3
+
+
 def run_game(game_name, name):
-    max_rounds = 3
     round = 0
-    while round <= max_rounds:
+    while round <= MAX_ROUNDS:
         question, correct_answer = game_name()
         if game_name == 'geometric_progression':
             print("What number is missing in the progression?")
