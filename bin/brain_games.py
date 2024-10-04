@@ -4,14 +4,19 @@ from src.games.geometric_progression import geometric_progression
 from src.games.least_common_multiple import least_common_multiple
 
 
+def game_selection():
+    print("Choose game mode (enter the number from 1 to 3):\n"
+          "1: least common multiple\n"
+          "2: geometric progression\n"
+          "3: exit")
+    game_mode = input("Your game mode: ").strip()
+    return game_mode
+
+
 def main():
     name = welcome_func()
     while True:
-        print("Choose game mode (enter the number from 1 to 3):\n"
-              "1: least common multiple\n"
-              "2: geometric progression\n"
-              "3: exit")
-        game_mode = input("Your game mode: ").strip()
+        game_mode = game_selection()
         if game_mode == '1':
             run_game(least_common_multiple, name)
         elif game_mode == '2':
@@ -20,7 +25,7 @@ def main():
             print(f"Goodbye, {name}!")
             return
         else:
-            game_mode = input("Try again: ").strip()
+            print("Incorrect answer! Try again!")
 
 
 if __name__ == "__main__":
