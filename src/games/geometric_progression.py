@@ -12,8 +12,4 @@ def geometric_progression():
     progression_answer = progression_list[progression_missed_position]
     progression_list[progression_missed_position] = "..."
     question_line = " ".join([str(element) for element in progression_list])
-    print(question_line)
     return question_line, progression_answer
-
-
-geometric_progression()
