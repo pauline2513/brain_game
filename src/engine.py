@@ -1,9 +1,12 @@
+from src.games.geometric_progression import geometric_progression
+
+
 MAX_ROUNDS = 3
 
 
 def question_creation(game_name):
     question, correct_answer = game_name()
-    if game_name == 'geometric_progression':
+    if game_name == geometric_progression:
         print("What number is missing in the progression?")
     else:
         print("Find the smallest common multiple of given numbers.")
