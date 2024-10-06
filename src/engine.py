@@ -12,7 +12,7 @@ def question_creation(game_name):
 
 
 def run_game(game_name, name):
-    round = 0
+    round = 1
     while round <= MAX_ROUNDS:
         correct_answer = question_creation(game_name)
         users_answer = input("Your answer: ")
