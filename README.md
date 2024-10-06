@@ -80,4 +80,4 @@ Let's try again, Sam!
 
 Главное в этом задании выполнить рефакторинг, в результате которого общая логика будет находиться в одном файле, очень хорошо, если реализуете движок для игр, в который будете передавать функции, с уникальным кодом для каждой игры, запуская их в движке. Все функции с побочными эффектами лучше оставить в файлах с играми, и не писать их в движке.
 
-<script async id="asciicast-569727" src="https://asciinema.org/a/XFArjil3ZCSB3fmmZJICEKlEp"></script>
+[![asciicast](https://asciinema.org/a/XFArjil3ZCSB3fmmZJICEKlEp.svg)](https://asciinema.org/a/XFArjil3ZCSB3fmmZJICEKlEp)
