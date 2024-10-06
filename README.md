@@ -1,3 +1,5 @@
+<a href="https://codeclimate.com/github/pauline2513/brain_game/maintainability"><img src="https://api.codeclimate.com/v1/badges/1aeb973244b262ec24c6/maintainability" /></a>
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/hxETgFrk)
 Реализовать можно на любом языке программирования.
 1) Создание приветствия.
